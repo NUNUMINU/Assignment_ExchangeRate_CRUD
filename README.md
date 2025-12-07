@@ -16,6 +16,7 @@
 
 # 1) 저장소 클론
 git clone https://github.com/NUNUMINU/Assignment_ExchangeRate_CRUD.git
+cd Assignment_ExchangeRate_CRUD
 
 # 2) 의존성 패키지 설치
 npm install
