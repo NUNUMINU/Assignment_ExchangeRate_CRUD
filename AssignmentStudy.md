@@ -30,7 +30,7 @@ Service 계층에서 await 키워드는 Data Access계층이 데이터를 반환
 - Service 계층: 요청을 해석하고 비즈니스 로직에 맞게 처리하는 역할
 - Data Access 계층: DB 등 실제 데이터와 통신하는 역할
 - 이러한 구조 덕에 각 계층이 독립적으로 작동될 수 있음
-- 과제에서도 이 구조를 채택해 Presentation 계층으로 expree 서버와 Apollo 서버를 사용, Service 계층으로 service.js에서 환율 관련 비즈니스 로직 처리 Data Access 계층으로, repository.js에서 실제 DB 접근 및 CRUD 로직 처리 형태로 나누어 구현했다..
+- 과제에서도 이 구조를 채택해 Presentation 계층으로 expree 서버와 Apollo 서버를 사용, Service 계층으로 service.js에서 환율 관련 비즈니스 로직 처리 Data Access 계층으로, repository.js에서 실제 DB 접근 및 CRUD 로직 처리 형태로 나누어 구현했다.
 
 5) Apollo Server
 - 개발자가 작성한 typeDefs를 gql(템플릿 리터럴 태그)로 파싱하여 AST로 파싱되며, Apollo Server는 이를 기반으로 GraphQL 스키마를 생성한다. 이를 통해 서버 부팅 단계에서 문법 오류를 사전에 검출할 수 있다.
